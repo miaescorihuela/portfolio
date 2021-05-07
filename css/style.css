@@ -1,0 +1,133 @@
+body{
+    font-family: 'Carme', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+.meh{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+header div{
+   display: flex;
+   align-items: center;
+}
+#cv{
+    background-color: springgreen;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition:all 0.3s linear
+}
+#cv:hover{
+    background-color: #FF4ABA;
+    color: snow;
+}
+.miaesc{
+    font-size: 35px; 
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 20px;
+    background-color:#FE97E0;
+    border-radius: 20px;
+    padding: 20px;
+    color: snow;
+}
+h1 p{
+    padding-top: 10px;
+
+}
+h3{
+    font-size: 25px;
+    text-decoration:underline ;
+}
+main{
+    padding: 40px;
+}
+.social-icon{
+    width: 50px;
+    height: 50px;
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 960px;
+    margin: 32px auto;
+    text-align: left;
+}
+.project-img{
+    width: 50%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.project-info{
+    padding-left: 32px;
+    max-width: 50%;
+}
+.project-info p{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.social-icons{
+    display: flex;
+    height: 12px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.contacts a{
+    margin-bottom: 12px;
+
+}
+.ver{
+    text-decoration: none;
+    background-color: #FE97E0;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    color: snow;
+    transition:all 0.3s linear
+}
+.ver:hover{
+    background-color: springgreen; 
+    color: black;
+}
+.footer-final{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.info{
+    background-color: springgreen;
+    border-radius: 20px;
+    padding: 10px;
+    transition:all 0.3s linear
+}
+.info:hover{
+    background-color: #FF4ABA;
+    color: snow;
+}
